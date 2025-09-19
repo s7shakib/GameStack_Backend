@@ -11,7 +11,7 @@ app.use(cors());
 // requests in our route handlers (as req.body)
 app.use(express.json());
 
-// Add all the routes to our Express server
+// Add all the routes to our Express server 
 // exported from routes/index.js
 routes.forEach(route => {
     app[route.method](route.path, route.handler);
