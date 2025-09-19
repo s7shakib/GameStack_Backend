@@ -4,7 +4,7 @@ import cors from 'cors';
 
 const PORT = process.env.PORT || 8080;
 
-const app = express();
+const app = express ();
 
 app.use(cors());
 // This allows us to access the body of POST/PUT
